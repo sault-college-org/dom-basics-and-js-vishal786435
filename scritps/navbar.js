@@ -17,18 +17,25 @@ const Navbar = () => {
     list.appendChild(navLink1);
 
     const navLink2 = document.createElement('a');
-    navLink2.setAttribute('id', 'menu');
+    navLink2.setAttribute('id', 'appetizer');
     navLink2.setAttribute('class', 'mx-2');
     navLink2.setAttribute('href', '#');
-    navLink2.innerHTML = 'Menu';
+    navLink2.innerHTML = 'Appetizer';
     list.appendChild(navLink2);
 
     const navLink3 = document.createElement('a');
-    navLink3.setAttribute('id', 'contact');
+    navLink3.setAttribute('id', 'menu');
     navLink3.setAttribute('class', 'mx-2');
     navLink3.setAttribute('href', '#');
-    navLink3.innerHTML = 'Contact';
+    navLink3.innerHTML = 'Menu';
     list.appendChild(navLink3);
+
+    const navLink4 = document.createElement('a');
+    navLink4.setAttribute('id', 'contact');
+    navLink4.setAttribute('class', 'mx-2');
+    navLink4.setAttribute('href', '#');
+    navLink4.innerHTML = 'Contact';
+    list.appendChild(navLink4);
 
     return list;
   };
